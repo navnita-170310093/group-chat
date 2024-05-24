@@ -28,18 +28,23 @@ app.use(notFound);
 app.use(errorHandler);
 
 async function performSignupRequest() {
+  const config = {
+    headers: {
+      Role: "admin",
+    },
+  };
   try {
-      await axios.post('http://localhost:3000/api/user', {
+      await axios.post('http://localhost:5000/api/user', {
         name: "Navnita",
         email: "navnita@gmail.com",
         password: "1234",
         address: "Bhagalpur",
         about: "Developer",
         isAdmin: true
-      });
+      },config);
       console.log('Default signup request completed successfully.');
   } catch (error) {
-    // console.log(error)
+    console.log(error)
       console.error('Error during default signup:', error.message);
   }
 }
