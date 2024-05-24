@@ -54,7 +54,7 @@ Start the Client
 
    ![image](https://github.com/navnita-170310093/group-chat/assets/71219014/28a2469e-b49e-4f22-8ad1-a742d6594042)
 
-3. Only admin create and edit normal users. 
+3. Only admin create and edit normal users. create at least 2 users for group chatting
 
    ![image](https://github.com/navnita-170310093/group-chat/assets/71219014/67923c8f-eecc-42ce-907d-550a9f1fe0f2)
 
@@ -66,7 +66,7 @@ Start the Client
    
   ![image](https://github.com/navnita-170310093/group-chat/assets/71219014/05033e63-b475-4c5a-bbe1-2d720b32b6be)
 
-6. Create group chat, add members
+6. Create group chat, add at least 2 members
 
    ![image](https://github.com/navnita-170310093/group-chat/assets/71219014/4cac232a-fccf-4803-aa73-a6c28f58d31f)
 
